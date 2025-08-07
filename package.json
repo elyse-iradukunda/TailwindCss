@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
+    "autoprefixer": "^10.4.21",
     "tailwindcss": "^4.1.11"
   },
-"script":{
-  "tailwind:run":"npx @tailwindcss/cli -i ./public/style.css -o ./output/output.css --watch"
-}
+  "script": {
+    "tailwind:run": "npx @tailwindcss/cli -i ./public/style.css -o ./output/output.css --watch"
+  }
 }
